@@ -1,0 +1,106 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : { },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "d6910830-4bbb-11ed-813b-810113008a66"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "10f770e0-4bbc-11ed-813b-810113008a66"
+    },
+    "label" : null,
+    "name" : "Bombeiros Novos de Aveiro",
+    "softwareId" : null,
+    "type" : "Responder"
+  },
+  "credentials" : {
+    "credentialsId" : "first2",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1665757164328,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1665750662911,
+      "longValue" : null,
+      "strValue" : "Rua Conselheiro Luís de Magalhães, 3800-124 Aveiro"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1665759449782,
+      "longValue" : 1665759449203,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1665759449046,
+      "longValue" : 1665759449046,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1665759449224,
+      "longValue" : 1665759449224,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 40.643884248805,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1665750662911,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : -8.65184336900711,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1665750662911,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "phone",
+      "lastUpdateTs" : 1665750804663,
+      "longValue" : null,
+      "strValue" : "234 450 700"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

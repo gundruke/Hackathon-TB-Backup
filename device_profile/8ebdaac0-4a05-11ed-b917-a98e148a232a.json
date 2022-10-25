@@ -1,0 +1,46 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : null,
+    "description" : "Default device profile",
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "8ebdaac0-4a05-11ed-b917-a98e148a232a"
+    },
+    "image" : null,
+    "name" : "Sensorhub",
+    "profileData" : {
+      "alarms" : [ ],
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT",
+        "deviceAttributesTopic" : "v1/devices/sensorhub/attributes",
+        "deviceTelemetryTopic" : "v1/devices/sensorhub/telemetry",
+        "sendAckOnValidationException" : false,
+        "transportPayloadTypeConfiguration" : {
+          "transportPayloadType" : "JSON"
+        }
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "MQTT",
+    "type" : "DEFAULT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

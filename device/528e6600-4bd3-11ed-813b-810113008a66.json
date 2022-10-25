@@ -1,0 +1,90 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "79ad3450-4b29-11ed-b917-a98e148a232a"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "528e6600-4bd3-11ed-813b-810113008a66"
+    },
+    "label" : null,
+    "name" : "test incident 02",
+    "softwareId" : null,
+    "type" : "Incident"
+  },
+  "credentials" : {
+    "credentialsId" : "dwMJLFEc3z1DWdzdBnaD",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1665761268461,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1665760651395,
+      "longValue" : null,
+      "strValue" : "Rua de Accidents N 246"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1665761268461,
+      "longValue" : 1665761268460,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "incident_type",
+      "lastUpdateTs" : 1665760651395,
+      "longValue" : null,
+      "strValue" : "Fire"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 40.63139785452397,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1665760651395,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : -8.661532519848219,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1665760651395,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : { },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "8bb1e900-4a13-11ed-b917-a98e148a232a"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "8955afc1-4ba3-11ed-b917-a98e148a232a"
+    },
+    "label" : null,
+    "name" : "Centro Hospitalar Baixo Vouga, Aveiro",
+    "softwareId" : null,
+    "type" : "Hospital"
+  },
+  "credentials" : {
+    "credentialsId" : "hospital1",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1665760068460,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1665740127432,
+      "longValue" : null,
+      "strValue" : "Avenida Artur Ravara 35, 3810-164 Aveiro"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1665760068460,
+      "longValue" : 1665760068460,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1665759449782,
+      "longValue" : 1665759449203,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1665759448465,
+      "longValue" : 1665759448465,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1665759449224,
+      "longValue" : 1665759449224,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 40.6349828182802,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1665740127432,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : -8.65538764006487,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1665740127432,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "phone",
+      "lastUpdateTs" : 1665740386810,
+      "longValue" : null,
+      "strValue" : "234 379 200"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "remBeds",
+      "lastUpdateTs" : 1665740127432,
+      "longValue" : 10,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "totalBeds",
+      "lastUpdateTs" : 1665740127432,
+      "longValue" : 100,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

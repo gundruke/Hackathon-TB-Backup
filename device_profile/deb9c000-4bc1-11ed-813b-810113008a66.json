@@ -1,0 +1,46 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : null,
+    "description" : "",
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "deb9c000-4bc1-11ed-813b-810113008a66"
+    },
+    "image" : null,
+    "name" : "ghosts",
+    "profileData" : {
+      "alarms" : null,
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT",
+        "deviceAttributesTopic" : "v1/ghosts/attributes",
+        "deviceTelemetryTopic" : "v1/ghosts/telemetry",
+        "sendAckOnValidationException" : false,
+        "transportPayloadTypeConfiguration" : {
+          "transportPayloadType" : "JSON"
+        }
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "MQTT",
+    "type" : "DEFAULT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

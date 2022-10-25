@@ -1,0 +1,48 @@
+{
+  "entityType" : "WIDGETS_BUNDLE",
+  "entity" : {
+    "alias" : "custom",
+    "description" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "7983b3f0-4ad4-11ed-b917-a98e148a232a"
+    },
+    "image" : null,
+    "title" : "Custom"
+  },
+  "widgets" : [ {
+    "alias" : "button",
+    "name" : "button",
+    "image" : null,
+    "description" : null,
+    "descriptor" : {
+      "type" : "static",
+      "sizeX" : 7.5,
+      "sizeY" : 3,
+      "resources" : [ ],
+      "templateHtml" : "<button class=\"button-87\" role=\"button\" (click)=\"buttonClicked();\">{{title}}</button>\n",
+      "templateCss" : "\n\n/* CSS */\n.button-87 {\n  margin: 10px;\n  padding: 15px 30px;\n  text-align: center;\n  text-transform: uppercase;\n  transition: 0.5s;\n  background-size: 200% auto;\n  color: white;\n  border-radius: 10px;\n  display: block;\n  border: 0px;\n  font-weight: 700;\n  box-shadow: 0px 0px 14px -7px #f09819;\n  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);\n  cursor: pointer;\n  user-select: none;\n  -webkit-user-select: none;\n  touch-action: manipulation;\n}\n\n.button-87:hover {\n  background-position: right center;\n  /* change the direction of the change here */\n  color: #fff;\n  text-decoration: none;\n}\n\n.button-87:active {\n  transform: scale(0.95);\n}",
+      "controllerScript" : "self.onInit = function() {\n    self.ctx.$scope.title = self.ctx.settings.buttonTitle;\n        \n    console.log(\"here\")\n    console.log( self.ctx.settings.buttonTitle)\n    self.ctx.$scope.buttonClicked = function($event) {\n        var descriptor = self.ctx.actionsApi\n            .getActionDescriptors(\"buttonClick\");\n        self.ctx.actionsApi.handleWidgetAction(\n            $event, descriptor[0], null, null);\n\n    }\n}\n\nself.actionSources = function() {\n    return {\n        'buttonClick': {\n            name: 'Button Click',\n            multiple: false\n        }\n    };\n}\n\nself.onDestroy = function() {}",
+      "settingsSchema" : "{\n    \"schema\": {\n        \"type\": \"object\",\n        \"title\": \"Settings\",\n        \"properties\": {\n            \"buttonTitle\": {\n                \"title\": \"Button Name\",\n                \"type\": \"string\",\n                \"default\": \"Button\"\n            }\n        }\n    },\n    \"form\": [{\n        \"key\": \"buttonTitle\"\n    }]\n}",
+      "dataKeySettingsSchema" : "",
+      "settingsDirective" : "tb-html-card-widget-settings",
+      "dataKeySettingsDirective" : "",
+      "defaultConfig" : "{\"datasources\":[{\"type\":\"static\",\"name\":\"function\",\"dataKeys\":[{\"name\":\"f(x)\",\"type\":\"function\",\"label\":\"Random\",\"color\":\"#2196f3\",\"settings\":{},\"_hash\":0.15479322438769105,\"funcBody\":\"var value = prevValue + Math.random() * 100 - 50;\\nvar multiplier = Math.pow(10, 2 || 0);\\nvar value = Math.round(value * multiplier) / multiplier;\\nif (value < -1000) {\\n\\tvalue = -1000;\\n} else if (value > 1000) {\\n\\tvalue = 1000;\\n}\\nreturn value;\"}]}],\"timewindow\":{\"realtime\":{\"timewindowMs\":60000}},\"showTitle\":false,\"backgroundColor\":\"rgb(255, 255, 255)\",\"color\":\"rgba(0, 0, 0, 0.87)\",\"padding\":\"8px\",\"settings\":{\"cardHtml\":\"<div class='card'>HTML code here</div>\",\"cardCss\":\".card {\\n    font-weight: bold;\\n    font-size: 32px;\\n    color: #999;\\n    width: 100%;\\n    height: 100%;\\n    display: flex;\\n    align-items: center;\\n    justify-content: center;\\n}\"},\"title\":\"button\",\"dropShadow\":true}"
+    },
+    "bundleAlias" : "custom",
+    "createdTime" : 1665651797339,
+    "id" : {
+      "entityType" : "WIDGET_TYPE",
+      "id" : "e080f2b0-4ad5-11ed-b917-a98e148a232a"
+    },
+    "tenantId" : {
+      "entityType" : "TENANT",
+      "id" : "7ebdad60-4973-11ed-b917-a98e148a232a"
+    }
+  } ],
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

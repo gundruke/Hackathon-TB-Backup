@@ -1,0 +1,130 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : { },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "8bb1e900-4a13-11ed-b917-a98e148a232a"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "8955afc0-4ba3-11ed-b917-a98e148a232a"
+    },
+    "label" : null,
+    "name" : "Hospital da Luz Aveiro",
+    "softwareId" : null,
+    "type" : "Hospital"
+  },
+  "credentials" : {
+    "credentialsId" : "hospital3",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1665760068460,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1665740127429,
+      "longValue" : null,
+      "strValue" : "Rua do Brasil 21, 3800-009 Aveiro"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1665760068460,
+      "longValue" : 1665760068460,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1665759449782,
+      "longValue" : 1665759449204,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1665759448491,
+      "longValue" : 1665759448491,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1665759449224,
+      "longValue" : 1665759449224,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 40.6377304078999,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1665740127429,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : -8.63620930888828,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1665740127429,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "phone",
+      "lastUpdateTs" : 1665740374441,
+      "longValue" : null,
+      "strValue" : "234 458 300"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "remBeds",
+      "lastUpdateTs" : 1665740127429,
+      "longValue" : 75,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "totalBeds",
+      "lastUpdateTs" : 1665740127429,
+      "longValue" : 90,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
